@@ -20,6 +20,3 @@ engines:
 ratings:
   paths:
     - "**.rb"
-exclude_paths:
-  - bin
-  - db/schema.rb

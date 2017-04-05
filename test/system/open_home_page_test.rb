@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'application_system_test_case'
 
 class OpenHomePageTest < ApplicationSystemTestCase
@@ -6,9 +8,4 @@ class OpenHomePageTest < ApplicationSystemTestCase
 
     assert_current_path '/'
   end
-  # test "visiting the index" do
-  #   visit open_home_pages_url
-  #
-  #   assert_selector "h1", text: "OpenHomePage"
-  # end
 end
