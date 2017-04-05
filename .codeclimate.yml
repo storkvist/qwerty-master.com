@@ -4,13 +4,15 @@ engines:
   bundler-audit:
     enabled: true
   csslint:
-    enabled: true
+    enabled: false
   duplication:
     enabled: true
     config:
       languages:
         - ruby:
         - javascript:
+  eslint:
+    enabled: false
   fixme:
     enabled: true
   rubocop:
