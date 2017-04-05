@@ -1,4 +1,4 @@
 test:
   adapter: postgresql
   user: postgres
-  database: qwerty-master_test
+  database: qwerty_master_test
