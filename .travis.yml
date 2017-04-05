@@ -4,5 +4,11 @@ rvm:
 addons:
   code_climate:
     repo_token: 37eb546b3e87dacd5dd33885788fe45dda197ee6f7a018716564384ad8b9c2d6
+  postgresql: "9.4"
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database qwerty-master_test;' -U postgres
+  - cp config/database.yml.travis config/database.yml
 after_success:
   - bundle exec codeclimate-test-reporter
