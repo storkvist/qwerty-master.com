@@ -1,6 +1,11 @@
 Rails:
   Enabled: true
 
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%i': '[]'
+    '%w': '[]'
+
 AllCops:
   Exclude:
     - 'bin/**/*'
