@@ -1,24 +1,9 @@
-# README
+# QWERTY Master
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Build Status](https://travis-ci.org/storkvist/qwerty-master.com.svg?branch=master)](https://travis-ci.org/storkvist/qwerty-master.com)
 
-Things you may want to cover:
+[![Test Coverage](https://codeclimate.com/github/storkvist/qwerty-master.com/badges/coverage.svg)](https://codeclimate.com/github/storkvist/qwerty-master.com/coverage)
 
-* Ruby version
+[![Code Climate](https://codeclimate.com/github/storkvist/qwerty-master.com/badges/gpa.svg)](https://codeclimate.com/github/storkvist/qwerty-master.com)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[![Issue Count](https://codeclimate.com/github/storkvist/qwerty-master.com/badges/issue_count.svg)](https://codeclimate.com/github/storkvist/qwerty-master.com)
