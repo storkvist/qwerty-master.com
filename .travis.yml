@@ -1,12 +1,11 @@
 dist: trusty
-sudo: false
 language: ruby
 rvm:
   - 2.4.0
 addons:
   apt:
     packages:
-      - google-chrome-stable
+      - chromium-chromedriver
   code_climate:
     repo_token: 37eb546b3e87dacd5dd33885788fe45dda197ee6f7a018716564384ad8b9c2d6
   postgresql: "9.4"
@@ -15,6 +14,7 @@ services:
 before_script:
   - psql -c 'create database qwerty_master_test;' -U postgres
   - cp config/database.yml.travis config/database.yml
+  - export PATH=$PATH:/usr/lib/chromium-browser/
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
   - sleep 3 # give xvfb some time to start
