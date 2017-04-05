@@ -15,3 +15,5 @@ engines:
     enabled: true
   rubocop:
     enabled: true
+exclude_paths:
+  - bin
