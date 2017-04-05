@@ -19,7 +19,7 @@ gem 'sass-rails', github: 'rails/sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker'
+gem 'webpacker', github: 'rails/webpacker'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -48,6 +48,10 @@ group :development, :test do
 end
 
 group :development do
+  gem 'capistrano', '~> 3.8'
+  gem 'capistrano-bundler', '~> 1.2'
+  gem 'capistrano-rails', '~> 1.2'
+  gem 'capistrano-rvm'
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Access an IRB console on exception pages or by using <%= console %>
   # anywhere in the code.
