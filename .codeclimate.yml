@@ -19,3 +19,4 @@ engines:
     enabled: true
 exclude_paths:
   - bin
+  - db/schema.rb
