@@ -1,14 +1,7 @@
 {
-  "name": "web",
+  "name": "qwerty-master",
   "private": true,
-  "dependencies": {
-    "css-loader": "^0.28.0",
-    "node-sass": "^4.5.2",
-    "sass-loader": "^6.0.3",
-    "vue": "^2.2.6",
-    "vue-loader": "^11.3.4",
-    "vue-template-compiler": "^2.2.6"
-  },
+  "dependencies": {},
   "devDependencies": {
     "webpack-dev-server": "^2.4.2"
   }
