@@ -2,7 +2,5 @@
   "name": "qwerty-master",
   "private": true,
   "dependencies": {},
-  "devDependencies": {
-    "webpack-dev-server": "^2.4.2"
-  }
+  "devDependencies": {}
 }
