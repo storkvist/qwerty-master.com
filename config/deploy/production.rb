@@ -60,6 +60,6 @@ server '138.68.96.110', user: 'rails', roles: %w[app db web]
 #     # password: "please use keys"
 #   }
 
-set :ssh_options, {
-  forward_agent: true
-}
+if File.exist?('config/deploy/id_rsa')
+  set :ssh_options, keys: ['config/deploy/id_rsa'] 
+end
