@@ -23,9 +23,10 @@ set :deploy_to, '/home/rails/qwerty-master.com'
 # Default value for :pty is false
 # set :pty, true
 
-append :linked_files, %w[config/secrets.yml.key config/unicorn.sh]
+append :linked_files, 'config/unicorn.sh'
 
-append :linked_dirs, %w[log tmp/pids tmp/cache tmp/sockets public/system]
+append :linked_dirs,
+       'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system'
 
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
