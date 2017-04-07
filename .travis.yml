@@ -25,4 +25,4 @@ script:
   - bin/rails test:system
 after_success:
   - bundle exec codeclimate-test-reporter
-  - "[[ $TRAVIS_BRANCH = 'master' ]] && bundle exec cap production deploy --trace"
+  - "[[ $TRAVIS_BRANCH = 'master' ]] && bundle exec cap production deploy"
