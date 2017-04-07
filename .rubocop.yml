@@ -1,3 +1,7 @@
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/**/*'
+
 Rails:
   Enabled: true
 
