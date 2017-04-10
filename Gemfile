@@ -34,7 +34,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'omniauth-github'
 gem 'tzinfo-data'
-gem 'unicorn'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get
@@ -66,4 +65,8 @@ end
 group :test do
   gem 'codeclimate-test-reporter', '~> 1.0.0'
   gem 'simplecov'
+end
+
+group :production do
+  gem 'unicorn'
 end
